@@ -1,0 +1,23 @@
+module Rpc.Autogen.NetworkSlaveConst (
+    eCONFIG_BRIDGE_FILTERING
+  , eCONFIG_NM_NETWORKING_ENABLED
+  , eCONFIG_NM_WIRELESS_ENABLED
+  , eCONFIG_NM_UNMANAGED_DEVICES
+) where
+
+import Data.String
+import Data.Word
+import Data.Int
+
+eCONFIG_BRIDGE_FILTERING :: String
+eCONFIG_BRIDGE_FILTERING = "bridge-filtering"
+
+eCONFIG_NM_NETWORKING_ENABLED :: String
+eCONFIG_NM_NETWORKING_ENABLED = "networking-enabled"
+
+eCONFIG_NM_WIRELESS_ENABLED :: String
+eCONFIG_NM_WIRELESS_ENABLED = "wifi-enabled"
+
+eCONFIG_NM_UNMANAGED_DEVICES :: String
+eCONFIG_NM_UNMANAGED_DEVICES = "unmanaged-devices"
+
